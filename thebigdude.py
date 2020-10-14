@@ -181,7 +181,7 @@ async def patrol_reports():
         reports = users[user]['reports']
         if reports % 10 == 0 and reports!=0:
             users'''
-
+    
     
     
     ops = []
@@ -285,7 +285,8 @@ async def on_message(msg):
     ##### RANKED!##############
 
     if 'just left the server' in msg.content:
-        if str(msg.author.id) == str(159985870458322944):
+        if str(msg.author.id) == str(159985870458322944): 
+            #if the speaker is MEE6
             
             await msg.channel.send("https://tenor.com/view/dhat-teri-maa-ki-nawazuddin-siddiqui-nawaz-haraamkhor-shweta-tripathi-gif-18052201")
 
@@ -295,7 +296,7 @@ async def on_message(msg):
 
     if '!whocreatedBIGdude' in msg.content:
         await msg.channel.send("https://tenor.com/view/sab-janna-hai-is-bhadwe-ko-tvf-gif-18519512")
-        await msg.channel.send(f"btw... I was coded by B6 :smile:")
+        await msg.channel.send(f"btw... I was coded by B6 :grin:")
 
     if "https://discord.gg/" in msg.content:
         await msg.delete()
