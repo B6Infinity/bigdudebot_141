@@ -66,7 +66,7 @@ def findPercent(xp, level):
 ##### INITIALISE BOT
 @client.event
 async def on_ready():
-    activity = discord.Game(name="type '!BIG_help' for a BIG help", type=3)
+    activity = discord.Game(name="type '!BIG_help' or '!help' for a BIG help", type=3)
     await client.change_presence(status=discord.Status.idle, activity=activity)
     print("Bot is BIG!")
 
